@@ -1,11 +1,3 @@
-#kubernetes-installer/docs/customer/
-#- README.md
-#- releasenotes.md
-
-#kubernetes-installer/clusters/$K8S_CLUSTER_NAME/generated/auth
-#- kubeconfig
-#- credentials.sh
-
 #!/bin/bash
 mkdir -p gather-info/$K8S_CLUSTER_NAME
 cp kubernetes-installer/docs/customer/*.md gather-info/$K8S_CLUSTER_NAME/
